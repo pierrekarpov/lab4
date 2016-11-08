@@ -79,7 +79,7 @@ db.once('open', function callback () {
         docs.forEach(function (doc) {
           console.log(
             'In the ' + doc['decade'] + ', ' + doc['song'] + ' by ' + doc['artist'] +
-            ' topped the charts for ' + doc['weeksAtOne'] + ' straight weeks!'
+            ' topped the charts for ' + doc['weeksAtOne'] + ' straight weeks.'
           );
         });
 
@@ -91,7 +91,7 @@ db.once('open', function callback () {
           mongoose.connection.db.close(function (err) {
             if(err) throw err;
           });
-        });
+        // });
       });
     }
   )
