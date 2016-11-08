@@ -79,13 +79,13 @@ db.once('open', function callback () {
         docs.forEach(function (doc) {
           console.log(
             'In the ' + doc['decade'] + ', ' + doc['song'] + ' by ' + doc['artist'] +
-            ' topped the charts for ' + doc['weeksAtOne'] + ' straight weeks.'
+            ' topped the charts for ' + doc['weeksAtOne'] + ' straight weeks!'
           );
         });
 
         // Since this is an example, we'll clean up after ourselves.
-        mongoose.connection.db.collection('songs').drop(function (err) {
-          if(err) throw err;
+        // mongoose.connection.db.collection('songs').drop(function (err) {
+        //   if(err) throw err;
 
           // Only close the connection when your app is terminating
           mongoose.connection.db.close(function (err) {
