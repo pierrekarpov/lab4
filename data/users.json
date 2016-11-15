@@ -1,0 +1,30 @@
+[
+      {
+          "name": "John John Smith",
+          "username": "username",
+          "password": "password",
+          "email": "username@mail.com",
+          "imageURL": ""
+      },
+      {
+          "name": "Jane Doe",
+          "username": "user1",
+          "password": "12345",
+          "email": "user1@mail.com",
+          "imageURL": ""
+      },
+      {
+          "name": "Joe Schmoe",
+          "username": "user",
+          "password": "12345word",
+          "email": "user@mail.com",
+          "imageURL": ""
+      },
+      {
+          "name": "Donald Duck",
+          "username": "DonaldDuck",
+          "password": "goose",
+          "email": "duck@mail.com",
+          "imageURL": "/images/duck.gif"
+      }
+]

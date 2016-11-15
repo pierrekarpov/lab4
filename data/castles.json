@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Castle 1",
+    "game": {
+      "castleHealth": 96,
+      "monsterHealth": 56
+    }
+  },
+  {
+    "name": "Neuschweinstein",
+    "game": {
+      "castleHealth": 100,
+      "monsterHealth": 20
+    }
+  },
+  {
+    "name": "Disney",
+    "game": {
+      "castleHealth": 100,
+      "monsterHealth": 100
+    }
+  },
+  {
+    "name": "Suscinio",
+    "game": {
+      "castleHealth": 20,
+      "monsterHealth": 80
+    }
+  },
+  {
+    "name": "Versailles",
+    "game": {
+      "castleHealth": 100,
+      "monsterHealth": 2
+    }
+  }
+]
